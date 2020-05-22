@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
+import Main from "./components/Main";
 
-const IntroductionComponent = () => {
-    return <div>Hello World!</div>
+
+
+
+const App = () => {
+    return (
+      <Main/>
+    )
 };
 
-ReactDOM.render(<IntroductionComponent/>, document.getElementById('app'));
+ReactDOM.render(<App/>, document.getElementById('app'));
